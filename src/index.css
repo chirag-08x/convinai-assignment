@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+:root {
+  --clr-primary-1: #f3f8fe;
+  --clr-primary-2: #fff;
+
+  --font-primary: "Roboto", sans-serif;
+
+  --main-transition: all 0.3s linear;
+}
+
+body {
+  background-color: var(--clr-primary-1);
+  font-family: var(--font-primary);
+}
